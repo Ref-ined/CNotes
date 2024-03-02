@@ -3,7 +3,8 @@ import { useState } from "react";
 
 
 const NoteState = (props) => {
-  const host = "http://localhost:5000"
+  const host = "c-notes-api.vercel.app
+"
   const notesInitial = []
 
   const [notes, setNotes] = useState(notesInitial)
